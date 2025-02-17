@@ -107,16 +107,16 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="对前端开发充满热情 能够与协作人员良好沟通 注重用户体验"
+            words="及时发现需求 注重用户体验"
           />
           <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hello, 我是
-            <LinkPreview url="https://github.com/">
-              <span className="ml-2 text-purple font-bold sm:ml-1"> 花不卷,</span>
+            <LinkPreview url="https://github.com/Icomi1/">
+              <span className="ml-2 text-purple font-bold sm:ml-1"> Icomi,</span>
             </LinkPreview>
-            一个高级前端开发工程师，目前居住在
+            专注于
             <LinkPreview url={image.beijing}>
-              <span className="ml-2 text-purple font-bold sm:ml-1">北京</span>
+              <span className="ml-2 text-purple font-bold sm:ml-1">嵌入式AI，运营引流</span>
             </LinkPreview>
           </div>
 
